@@ -10,6 +10,7 @@ public class Application {
     public static void main(String[] args) {
         Restaurant restaurant = new Restaurant();
 
+        System.out.print("test de pull");
         Client client = new Client("George");
 
         Dessert dessert = new Dessert("pouding",3.45, PeriodeJournee.DEJEUNER, JoursSemaine.MARDI,34);
