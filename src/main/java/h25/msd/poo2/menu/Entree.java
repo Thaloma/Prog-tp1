@@ -1,4 +1,5 @@
 package h25.msd.poo2.menu;
+//Lucas Blondeau
 
 public class Entree extends Plat{
     public static final double RABAIS_POUR_SEUIL = 0.05;

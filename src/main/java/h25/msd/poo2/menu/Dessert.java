@@ -1,4 +1,5 @@
 package h25.msd.poo2.menu;
+//Lucas Blondeau
 
 public class Dessert extends Plat{
     public static final double RABAIS_JOURNALIER = 0.03;

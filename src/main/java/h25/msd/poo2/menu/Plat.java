@@ -1,4 +1,5 @@
 package h25.msd.poo2.menu;
+//Lucas Blondeau
 
 public class Plat {
     private String nom;
