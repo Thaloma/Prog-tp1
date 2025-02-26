@@ -19,7 +19,7 @@ public class Dessert extends Plat{
         double rabaisDessert = 0;
 
         //rabais météo
-        rabaisDessert = temperature < 0 ? -Math.max(-30, Math.min(temperature, 0)) * prix / 100.0f: 0;
+        RabaisMeteo.rabaisMeteo(rabaisDessert, temperature, prix);
 
         // rabais moment du jour
         if (periodeJournee.equals(PeriodeJournee.DINER)) {

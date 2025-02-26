@@ -19,7 +19,7 @@ public class Entree extends Plat{
         double rabaisEntree = 0;
 
         //rabais météo
-        rabaisEntree = temperature < 0 ? -Math.max(-30, Math.min(temperature, 0)) * prix / 100.0f: 0;
+        RabaisMeteo.rabaisMeteo(rabaisEntree, temperature, prix);
 
         // rabais de volume
         if (montantTotal > seuilRabais) {
